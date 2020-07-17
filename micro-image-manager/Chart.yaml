@@ -1,0 +1,10 @@
+apiVersion: v2
+name: micro-image-manager
+description: A Helm chart for micro-image-manager
+type: application
+version: 0.1.0
+appVersion: 0.1.0
+dependencies:
+  - name: mongodb
+    version: "7.8.10"
+    repository: "https://charts.bitnami.com/bitnami"
